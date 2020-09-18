@@ -1,0 +1,9 @@
+h1:first-of-type {
+  border-top: 2px solid #000;
+  padding-top: 0;
+}
+
+h1 {
+  border-top: 2px solid #999;
+  padding-top: 20px;
+}
