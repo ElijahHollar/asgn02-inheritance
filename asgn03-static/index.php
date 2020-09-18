@@ -22,7 +22,24 @@
     echo "<p>The " . $fly_catcher->name . " " . $fly_catcher->can_fly() . ".</p>";
     echo "<p>The " . $kiwi->name . " " . $kiwi->can_fly() . ".</p>";    
 
+    echo "<h1>Static Examples</h1>";
+
+    echo "<h2>Before using the create method</h2>";
+
+    echo "<p>Bird count: " . $bird::$instance_count . "</p>";
+    echo "<p>Flycatcher count: " . $fly_catcher::$instance_count . "</p>";
+    echo "<p>Kiwi count: " . $kiwi::$instance_count . "</p>";
+
+    $bird2 = $bird::create('Bird');
+    $fly_catcher2 = $bird::create('YellowBelliedFlyCatcher');
+    $kiwi2 = $bird::create('Kiwi');
+
+    echo "<h2>After using the create method</h2>";
+
+    echo "<p>Bird count: " . $bird::$instance_count . "</p>";
+    echo "<p>Flycatcher count: " . $fly_catcher::$instance_count . "</p>";
+    echo "<p>Kiwi count: " . $kiwi::$instance_count . "</p>";
+
 ?>
     </body>
 </html>
-
