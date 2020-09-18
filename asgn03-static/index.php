@@ -42,5 +42,7 @@
     echo "<p>Kiwi count: " . $kiwi::$instance_count . "</p>";
 
 ?>
+
+    <p><a href="../index.php">Return to WEB250 hompage</a></p>
     </body>
 </html>
