@@ -6,7 +6,7 @@
 
   <div id="page">
     <div class="intro">
-      <img class="inset" src="/images/tufted-titmouse.jpg') ?>" />
+      <img src="images/tufted-titmouse.jpg">
       <h1>WNC BIRDS</h1>
       <h2>Small Sampling of WNC Birds</h2>
     </div>
@@ -36,7 +36,7 @@ $bird_array = $parser->parse();
         <td><?php echo h($bird->food); ?></td>
         <td><?php echo h($bird->nest); ?></td>
         <td><?php echo h($bird->behavior); ?></td>
-        <td><?php echo h($bird->conservation_id); ?></td>
+        <td><?php echo h($bird->conservation_level($bird->conservation_id)); ?></td>
         <td><?php echo h($bird->tip); ?></td>
       </tr>
       <?php } ?>
