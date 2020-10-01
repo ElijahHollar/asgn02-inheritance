@@ -1,0 +1,35 @@
+img {
+  height: auto;
+  max-width: 150px;
+}
+
+h1 {
+  font: bold 25px Tahoma, Arial, sans-serif;
+}
+
+html {
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  padding: 10px 25px 15px 10px;
+  text-align: left;
+  max-width: 400px;
+}
+
+th {
+  background-color: #f84f49;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 200px auto 0 auto;
+  max-width: 70%;
+  text-align: left;
+}

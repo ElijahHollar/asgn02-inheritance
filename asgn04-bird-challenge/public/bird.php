@@ -1,13 +1,13 @@
 <?php require_once('../private/initialize.php'); ?>
 
-<?php $page_title = 'Birds'; ?>
+<?php $page_title = 'Bird Info'; ?>
+
+<?php include(SHARED_PATH . '/public_header.php'); ?>
 
 <div id="main">
 
   <div id="page">
     <div class="intro">
-      <img src="images/tufted-titmouse.jpg">
-      <h1>WNC BIRDS</h1>
       <h2>Small Sampling of WNC Birds</h2>
     </div>
 
