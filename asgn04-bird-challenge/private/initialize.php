@@ -27,12 +27,13 @@
   // Load class definitions manually
 
   // -> Individually
-  // require_once('classes/bicycle.class.php');
+  require_once('classes/bird.class.php');
+  require_once('classes/parsecsv.class.php');
 
   // -> All classes in directory
-  foreach(glob('classes/*.class.php') as $file) {
-    require_once($file);
-  }
+  // foreach(glob('classes/*.class.php') as $file) {
+  //   require_once($file);
+  // }
 
   // Autoload class definitions
   function my_autoload($class) {
